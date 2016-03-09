@@ -9,14 +9,24 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".main.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context=".main.Splash"
+    android:background="#eafdff">
 
     <TextView
+        android:id="@+id/textSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main Activity Screen"
+        android:text="Splash Activity"
+        android:textSize="26sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0d0101" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:textSize="24dp" />
+        android:src="@drawable/splash" />
 </RelativeLayout>

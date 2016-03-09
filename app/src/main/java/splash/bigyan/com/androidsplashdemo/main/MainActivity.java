@@ -1,4 +1,4 @@
-package splash.bigyan.com.androidsplashdemo;
+package splash.bigyan.com.androidsplashdemo.main;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import splash.bigyan.com.androidsplashdemo.R;
 
 public class MainActivity extends AppCompatActivity {
 
