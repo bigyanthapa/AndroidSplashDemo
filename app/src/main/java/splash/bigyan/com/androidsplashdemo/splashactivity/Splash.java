@@ -2,7 +2,6 @@ package splash.bigyan.com.androidsplashdemo.splashactivity;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
